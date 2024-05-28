@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .button{
+
+        @apply bg-transparent hover:bg-blue-500 text-black font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded
+    }
+}
+
+body{
+    background: white;
+}
+
+li{
+    list-style: none;
+    cursor: pointer;
+    position: relative;
+}
+li:hover::before{
+    position: absolute;
+    content: "";
+    height: 4px;
+    width: 100%;
+    background: #2a68ff;
+    right: 0;
+    bottom: -10px;
+    color: #2a68ff;
+}
+
+.icon{
+    cursor: pointer;
+
+}
+.card{
+    background: #000;
+}
