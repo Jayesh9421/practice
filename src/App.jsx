@@ -1,5 +1,6 @@
 import React from 'react'
-import LyricsFinder from './projects/Lyrics Finder/LyricsFinder'
+import AppRecipe from './projects/Food Recipe App/AppRecipe'
+// import LyricsFinder from './projects/Lyrics Finder/LyricsFinder'
 // import DomainNameGenerator from './projects/DomainNameGenerator/DomainNameGenerator'
 // import CardNumber from './projects/CardNumber/CardNumber'
 // import ColorBox from './projects/ColorBoxApplication/ColorBox'
@@ -24,8 +25,8 @@ const App = () => {
       {/* <ColorBox/> */}
       {/* <CardNumber/> */}
       {/* <DomainNameGenerator/> */}
-      <LyricsFinder/>
-     
+      {/* <LyricsFinder/> */}
+     <AppRecipe/>
     </div>
   )
 }
